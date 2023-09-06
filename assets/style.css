@@ -1,0 +1,38 @@
+* {
+    background-color: #F0DFA2;
+    font-family: 'DM Sans', sans-serif;
+}
+
+@keyframes slideInUp {
+    0% {
+      transform: translateY(300%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.image {
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.text {
+    animation: 2s ease-in 0s slideInUp;
+    position: absolute;
+    z-index: 0;
+    color: red;
+    font-size: 500px;
+    bottom: 90px;
+}
