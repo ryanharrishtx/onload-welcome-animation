@@ -73,21 +73,21 @@
 
 @media only screen and (min-width: 1024px) {
   .image {
-    width: 850px;
+    width: 600px;
   }
   #text {
     font-size: 315px;
-    bottom: 900px;
+    bottom: 530px;
   } 
 }
 
 @media only screen and (min-width: 1400px) {
   .image {
-    width: 1250px;
+    width: 425px;
   }
   #text {
-    font-size: 625px;
-    bottom: 1250px;
+    font-size: 300px;
+    bottom: 300px;
   } 
 }
 
